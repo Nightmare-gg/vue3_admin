@@ -16,7 +16,7 @@ import gloablComponent from "./components/index";
 // 引入路由
 import router from "./router";
 // 引入仓库
-import pinia from "@/store/index"
+import pinia from "@/store/index";
 // 获取应用实例对象
 const app = createApp(App);
 // 安装element-plus插件
@@ -29,6 +29,6 @@ app.use(gloablComponent);
 // 注册模板路由
 app.use(router);
 // 安装仓库
-app.use(pinia)
+app.use(pinia);
 // 将应用挂载到挂载点上
 app.mount("#app");
